@@ -1,0 +1,164 @@
+
+
+/* FUENTE */
+  /* font-family: 'Open Sans', sans-serif; */
+
+
+header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 20px;  
+}
+
+header{
+    background: #b56aa5;
+background: linear-gradient(209deg,#b56aa5 0%, rgba(200,33,169,0.4) 80%);
+background: -webkit-linear-gradient(209deg,#b56aa5 0%, rgba(200,33,169,0.4) 80%);
+background: -moz-linear-gradient(209deg,#b56aa5 0%, rgba(200,33,169,0.4) 80%);
+    padding: 1em 0;
+}
+header img{
+    padding: 20px;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 3s;
+}
+
+header img:hover{
+    transform: scale(1.2) translate(130px,0px);
+}
+.imagen2{
+    align-items: flex-end;
+}
+
+header h1{
+    display: inline-block;
+    color: #fff;
+    font-style: italic;
+    font-weight: 100;
+    position: relative;
+    padding-right: 50px;
+    padding-top: 30px;
+    float: right;
+    
+}
+
+.nav-principal{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #F263FE;
+}
+
+li{
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    }
+
+li:hover{
+    background-color: hsl(313, 59%, 84%);
+    text-align: center;
+    width: 10%;
+    }
+
+.activo{
+    color: #460606;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align:center;
+    display: block;
+    color: rgb(182, 97, 97);
+}
+
+main{
+    padding: 40px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    background: linear-gradient(to bottom, rgba(216, 215, 215, 0.8) 0%, rgba(236, 217, 204, 0.8) 100%), url("https://celiaquia.info/wp-content/uploads/2020/01/Que-significa-sin-TACC-min.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-size: cover;
+}
+
+.harina ul{
+    display: block;
+}
+
+.titulo_h2{
+    text-align: center;
+    padding: 10px;
+    color: #F90650;
+    font-size: 2rem;
+}
+.titulo_h3{
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #F26;
+    padding: 15px;
+    text-shadow: -2px 4px 2px #ccc ;
+}
+.titulo_galeria{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: #FF47BB;
+    padding-bottom: 10px;
+}
+
+.texto_principal{
+    font-size: 1.6rem;
+    color: #C60029;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.imagen_principal{
+    display: flex;
+    margin: 0 auto;
+    padding: 40px;
+    
+    
+}
+
+.h3_recetas{
+    padding: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #F90650;
+    font-size: 2rem;
+}
+
+.imagen_receta{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.imag-re{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+}
+
+.h4_recetas{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.galeria{
+    align-content: center;
+}
+
