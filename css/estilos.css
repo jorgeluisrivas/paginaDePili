@@ -158,7 +158,13 @@ main{
     padding: 10px;
 }
 
-.galeria{
-    align-content: center;
+.imagen{
+    display: flex;
+    
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    border-radius: 10px;
 }
+    
 
